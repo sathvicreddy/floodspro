@@ -1,0 +1,77 @@
+body {
+    background: url(app.jpeg)no-repeat center center/cover;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}
+
+.main {
+    display: block;
+    width: 400px;
+    padding: 55px 20px;
+    border: 2px solid white;
+    background: white;
+    border-radius: 10px;
+}
+
+.booking {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fname {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+#submit {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: pink;
+}
+
+#reset {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: pink;
+}
+
+#lname {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+#phone {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+#email {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+#date {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+#time {
+    width: 170px;
+    height: 25px;
+    border-color: antiquewhite;
+}
+
+h1 {
+    font-size: 1.7rem;
+}

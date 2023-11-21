@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .login-container h1 {
+            color: #333;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-field {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        .login-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #45a049;
+        }
+
+        .register-link {
+            margin-top: 10px;
+        }
+
+        .register-link a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form class="login-form" action="#" method="post">
+            <input class="input-field" type="text" placeholder="Username" required>
+            <input class="input-field" type="password" placeholder="Password" required>
+            <button class="login-button" type="submit">Login</button>
+        </form>
+        <div class="register-link">
+            Don't have an account? <a href="#">Register</a>
+        </div>
+    </div>
+</body>
+</html>
